@@ -1,1 +1,1 @@
-# k8s-Resource
+# k8s-Resources
