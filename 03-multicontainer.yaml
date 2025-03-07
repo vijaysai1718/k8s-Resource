@@ -1,0 +1,13 @@
+kind: pod
+apiVersion: v1
+metadata: 
+  name: nginx
+  labels:
+   name: multi-container 
+spec:
+  containers:
+   - name: nginx 
+     image: nginx
+   - name: alamlinux
+     image: alamalinux:9
+     command: [ "sleep" , "2000"]
